@@ -82,3 +82,15 @@ Children:
     DataType: Size
     ModellingRule: Optional
     Value: 400.0
+  - Name: Label1
+    Type: Label
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      Children:
+      - Name: DynamicLink
+        Type: DataBind
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=bf69d373-eac2-e72c-030d-a6b281b6edf8}"
